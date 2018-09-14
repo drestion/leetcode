@@ -27,7 +27,39 @@ public class LeAllSep2018 {
 		Utils.print(Utils.treeSerializer(tt[0]));
 		Utils.print(Utils.treeSerializer(tt[1]));
 	}
-	
+  /*
+  *   05:13pm 0914 started
+  *   5:25pm draft done
+  *    #enter post-order traversal
+  *
+  */
+  
+  public int findTilt(TreeNode root) {
+     int[] ans = new int[1];
+     helper(root, ans);
+      
+     return ans[0];
+  }
+  
+  public int helper(TreeNode root, int[] ans){
+       if(root == null) return 0;
+      int l = helper(root.left, ans);
+      int r = helper(root.right, ans);
+      
+      int pl = 0, pr =0, ori = root.val;
+      if(root.left != null) {
+          root.val += root.left.val;
+          pl = root.left.val;
+      }
+      if(root.right != null){
+          root.val += root.right.val;
+          pr = root.right.val;
+      }
+      ans[0] += Math.abs(pl - pr);
+
+      return Math.abs(pl - pr);
+  }
+  
   /*
    *   6:02pm 0910 started
    *   6:22pm 2pass.
