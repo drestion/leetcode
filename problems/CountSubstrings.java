@@ -1,3 +1,5 @@
+package problems;
+
 class CountSubstrings{
  /*
     *   6:07pm 0919 started
