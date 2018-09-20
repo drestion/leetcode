@@ -9,7 +9,6 @@ public class Palindrome {
 	}
 
 	public boolean isPalindrome(String s) {
-
 		return isPalindrome(s, 0, s.length() - 1);
 	}
 
