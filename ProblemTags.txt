@@ -1,1 +1,5 @@
 647.Palindromic Substrings	Palindrome,Dynamic Programming(substring),
+125.Valid Palindrome	Palindrome,Two Pointer,
+409.LongestPalindrome	Palindrome,ASCII Table,
+131.Palindrome Partitioning	Palindrome,Recursion,DFS
+266.Palindrome Permutation	Palindrome,Bit Manipulation

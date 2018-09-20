@@ -4,8 +4,12 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		Palindrome t = new Palindrome();
-		System.out.println("abc " + t.isPalindrome(""));
-		System.out.println("aba " + t.isPalindromeNonRecur(""));
+		String[] tests = {"abc","","a","aa","abba","aaaa","ab","abbc"};
+		for(String s : tests) {
+			System.out.println(s+" "+t.isPalindromeLib(s));
+			System.out.println(s+" "+t.isPalindrome(s));
+			System.out.println(s+" "+t.isPalindromeNonRecur(s));
+		}
 	}
 
 	public boolean isPalindrome(String s) {
@@ -30,5 +34,9 @@ public class Palindrome {
 		}
 		return true;
 	}
+	
+	 public boolean isPalindromeLib(String s) {
+     return s.equals(new StringBuffer(s).reverse().toString());
+ }
 
 }
