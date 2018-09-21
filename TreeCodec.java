@@ -1,7 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-
 public class TreeCodec {
 
 	// Encodes a tree to a single string.
@@ -101,5 +100,3 @@ public class TreeCodec {
 		}
 	}
 }
-
-
