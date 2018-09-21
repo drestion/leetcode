@@ -5,3 +5,4 @@
 266.Palindrome Permutation	Palindrome,Bit Manipulation
 11.Container With Most Water	Dynamic Programming(substring),Two Pointer
 256.Paint House	Dynamic Programming(prefix),Knapsack
+127.Word Ladder	BFS,DFS

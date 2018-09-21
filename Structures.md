@@ -58,3 +58,24 @@ A special case where the string is not sorted.
 
 
 # Substring
+
+
+# Linked List
+
+## Fast Slower Pointers
+## Cycle Detection
+## Reverse List
+
+
+# Random Numbers
+
+# Tree
+
+## Binary Search Tree
+## In-order Traversal
+## Level-order Traversal
+
+
+# Number Ranges
+
+Integer.MAX_VALUE = 2^32 - 1;
