@@ -17,6 +17,7 @@ class CountSubstrings {
 			return 1;
 
 		int ans = 0;
+
 		boolean[][] dp = new boolean[s.length()][s.length()];
 
 		for (int j = 0; j < dp.length; j++) {
