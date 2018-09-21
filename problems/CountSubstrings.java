@@ -6,7 +6,8 @@ class CountSubstrings {
   *
   *
   * #enter just check if dp[i][j] is a palindrom dp[i][j] = i+1 <= j - 1 && ci ==
-  * cj && dp[i+1][j-1] || i+1 > j - 1 && ci == cj #enter this is the case of
+  * cj && dp[i+1][j-1] || i+1 > j - 1 && ci == cj 
+  * #enter this is the case of
   * substring(i, j), notice the topological order is from left to right.
   */
  public int countSubstrings(String s) {
