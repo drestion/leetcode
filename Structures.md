@@ -59,6 +59,7 @@ A special case where the string is not sorted.
 
 # Substring
 
+## Template
 
 # Linked List
 
@@ -79,3 +80,21 @@ A special case where the string is not sorted.
 # Number Ranges
 
 Integer.MAX_VALUE = 2^32 - 1;
+
+
+
+# Depth First Search
+
+One key is to mark visited nodes to avoid revisiting.
+
+## Avoid Nodes Revisiting
+### Change Cell Values in Matrix
+### Remove Visited Values from List
+### Maintain Visited Nodes Set
+
+# Breadth First Search
+
+BFS may be faster than DFS in graph search
+
+
+# Greedy Algorithm
