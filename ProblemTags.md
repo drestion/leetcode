@@ -10,3 +10,4 @@ Problem|Category|Related Problems
 127.Word Ladder|BFS,DFS|
 463.Island Perimeter|DFS,BFS|
 45.Jump Game II|Dynamic Programming(substring),BFS,|#322
+159. Longest Substring with At Most Two Distinct Characters|Dynamic Programming(prefix),Substring

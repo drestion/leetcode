@@ -33,6 +33,7 @@ Notice that the recursion should carry enough information and you should increas
 ## The Prefix model
 ## The Substring model
 ## Topological Order
+## Problems needs optimal result form VS. needing just optimal result number
 
 ## Knapsack
 # Search Space Shrinkage
@@ -98,3 +99,17 @@ BFS may be faster than DFS in graph search
 
 
 # Greedy Algorithm
+
+
+# Array
+
+If possible, sort first.
+
+# Sorting
+
+
+# Backtracking
+
+# Permutation
+
+
