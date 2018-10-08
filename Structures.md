@@ -51,7 +51,7 @@ A special case where the string is not sorted.
 
 
 # Data Structure Design
-
+Master Big Os of common data structures: https://github.com/ro31337/bigoposter/blob/master/bigoposter.pdf
 
 # Sort
 
