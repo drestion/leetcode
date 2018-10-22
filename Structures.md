@@ -51,7 +51,7 @@ A special case where the string is not sorted.
 
 
 # Data Structure Design
-Master Big Os of common data structures: https://github.com/ro31337/bigoposter/blob/master/bigoposter.pdf
+
 
 # Sort
 
@@ -116,7 +116,11 @@ If possible, sort first.
 # Interval
 
 # Heap
-
+maxHeap
 
 # Number 
 Overflow? Integer.MAX_VALUE MIN_VALUE? Check for these corner cases
+
+# Priority Queue
+
+# Deque

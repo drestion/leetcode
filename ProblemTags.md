@@ -16,3 +16,5 @@ Problem|Category|Related Problems
 119. Pascal's Triangle II|Array
 682. Baseball Game|Linked List,Design
 155. Min Stack|Linked List,Design
+16. 3Sum Closet|Two Pointer
+224. Basic Calculator|Recursion
