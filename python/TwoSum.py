@@ -5,6 +5,10 @@ class Solution:
         # We can also do this in one pass
         # to leverage the mutual A<->B => B<=>A
         
+
+        # Use storage to trade for time
+        # apparently you need to scan at least two numbers
+        # so O(n) without memory is impossible
         for i in range(len(nums)):
             diff_dict[nums[i]] = i 
             
